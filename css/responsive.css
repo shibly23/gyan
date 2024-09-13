@@ -1,0 +1,624 @@
+@media (min-width:320px) and (max-width:575px) {
+    .title p {
+        width: 100%;
+    }
+
+    header p {
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    header .reg {
+        text-align: center;
+    }
+
+    nav {
+        position: absolute !important;
+        z-index: 9999;
+        width: 100%;
+        background: #fff;
+    }
+
+    nav button i {
+        color: #2D3E50;
+    }
+
+    nav ul {
+        text-align: center;
+        background: #2D3E50;
+        padding: 20px 0;
+    }
+
+    nav ul li {
+        padding-top: 0;
+        margin-right: 0;
+    }
+
+    nav ul li a {
+        color: #fff !important;
+    }
+
+    nav .button {
+        text-align: center;
+        background: #2D3E50;
+        padding-bottom: 20px;
+    }
+
+    #banner-area .banner-slider .slider .overlay {
+        padding-top: 110px;
+        padding-bottom: 50px;
+    }
+
+    #banner-area .slider .overlay h1 {
+        font-size: 30px;
+    }
+
+    #banner-area .slider .overlay h2 {
+        font-size: 20px;
+    }
+
+    #banner-area .slider .overlay p {
+        width: auto;
+    }
+
+    #banner-area .slick-dots {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        padding-left: 0 !important;
+    }
+
+    #banner-area .slick-dots li {
+        display: inline-block;
+        margin: 0 3px;
+    }
+
+    #banner-area .slick-dots button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 2px solid #fbaa33;
+        background: transparent;
+
+    }
+
+    #banner-area .slick-dots .slick-active button {
+        background: #fbaa33;
+    }
+
+    #banner-bottom {
+        transform: translateY(0);
+        margin: 50px 0
+    }
+
+    #about-area {
+        text-align: center;
+    }
+
+    #about-area p {
+        text-align: center;
+    }
+
+    #about-area a {
+        margin-right: 5px;
+    }
+
+    #course-area .slick-dots {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -30px;
+        padding-left: 0 !important;
+    }
+
+    #course-area .slick-dots li {
+        display: inline-block;
+        margin: 0 3px;
+    }
+
+    #course-area .slick-dots button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 2px solid #fbaa33;
+        background: transparent;
+    }
+
+    #course-area .slick-dots .slick-active button {
+        background: #fbaa33;
+    }
+  
+    #event-area .date {
+        padding: 10px;
+        background: red;
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        bottom: 158px;
+    }
+
+ 
+    #event-area .item a {
+        position: absolute;
+        left: -90px;
+        bottom: 30px;
+    }
+
+    #event-area .details {
+        position: relative;
+    }
+
+    
+    #testi-area .testi-slider .slider{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    #testi-area .details-slider p{
+        margin: 10px 0;
+        text-align: center;
+    }
+    #testi-area .details-slider .icon{
+        margin-bottom: 10px;
+    }
+    
+    #teachers-area .item {
+        margin-bottom: 40px;
+    }
+    #teachers-area .item .name{
+        margin-top: 10px;
+    }
+    
+    #blog-area .item{
+        margin-bottom: 10px;
+    }
+    
+    #blog-area .small-blog{
+        margin-top: 152px;
+    }
+    #blog-area .row{
+        transform: translateY(-10%);
+    }
+}
+/*==============================================
+    RESPONSIVE
+===============================================*/
+    
+    @media (min-width:576px) and (max-width:767px) {
+    .title p {
+        width: 100%;
+    }
+
+    header p {
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    header .reg {
+        text-align: center;
+    }
+
+    nav {
+        position: absolute !important;
+        z-index: 9999;
+        width: 100%;
+        background: #fff;
+    }
+
+    nav button i {
+        color: #2D3E50;
+    }
+
+    nav ul {
+        text-align: center;
+        background: #2D3E50;
+        padding: 20px 0;
+    }
+
+    nav ul li {
+        padding-top: 0;
+        margin-right: 0;
+    }
+
+    nav ul li a {
+        color: #fff !important;
+    }
+
+    nav .button {
+        text-align: center;
+        background: #2D3E50;
+        padding-bottom: 20px;
+    }
+
+    #banner-area .banner-slider .slider .overlay {
+        padding-top: 110px;
+        padding-bottom: 50px;
+    }
+
+    #banner-area .slider .overlay h1 {
+        font-size: 30px;
+    }
+
+    #banner-area .slider .overlay h2 {
+        font-size: 20px;
+    }
+
+    #banner-area .slider .overlay p {
+        width: auto;
+    }
+
+    #banner-area .slick-dots {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        padding-left: 0 !important;
+    }
+
+    #banner-area .slick-dots li {
+        display: inline-block;
+        margin: 0 3px;
+    }
+
+    #banner-area .slick-dots button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 2px solid #fbaa33;
+        background: transparent;
+
+    }
+
+    #banner-area .slick-dots .slick-active button {
+        background: #fbaa33;
+    }
+
+    #banner-bottom {
+        transform: translateY(0);
+        margin: 50px 0;
+    }
+
+    #about-area {
+        text-align: center;
+    }
+
+    #about-area p {
+        text-align: center;
+    }
+
+    #about-area a {
+        margin-right: 5px;
+    }
+
+    #course-area .slick-dots {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10px;
+        padding-left: 0 !important;
+    }
+
+    #course-area .slick-dots li {
+        display: inline-block;
+        margin: 0 3px;
+    }
+
+    #course-area .slick-dots button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 2px solid #fbaa33;
+        background: transparent;
+    }
+
+    #course-area .slick-dots .slick-active button {
+        background: #fbaa33;
+    }
+        #event-area .details .time{
+            margin-left: 30px;
+        }
+    #event-area .date {
+        
+        background: red;
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        bottom: 155px;
+    }
+   
+ 
+    #event-area .item a {
+        position: absolute;
+        left: 12px;
+        bottom: 1px;
+    }
+    
+    #event-area .details {
+        position: relative;
+    }
+        
+    #counter-area .item p:before{
+        right: 40%;
+        } 
+    #counter-area .item p:after{
+        left: 40%;
+        }
+    
+    
+    #testi-area .testi-slider .slider{
+        margin-right: 0;
+        margin-left: 0;
+    }
+        
+    #testi-area .testi-slider .slider img{
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        margin: 0 auto;
+    }
+    
+    #testi-area .details-slider p{
+        margin: 10px 0;
+        text-align: center;
+    }
+    #testi-area .details-slider .icon{
+        margin-bottom: 10px;
+    }
+    
+    #teachers-area .item {
+        margin-bottom: 60px;
+    }
+    #teachers-area .item .name{
+        margin-top: 10px;
+    }
+    
+    #blog-area .item{
+        margin-bottom: 10px;
+    }
+    
+    #blog-area .small-blog{
+        margin-top: 152px;
+    }
+    #blog-area .row{
+        transform: translateY(-10%);
+    }
+    
+    footer .footer-details .info-part ul li{
+            padding: 15px 0;
+    }
+    footer .footer-details .details-part{
+            margin-top: 10px;
+    }
+ }
+/*===================================================
+        RESPONSIVE
+======================================================*/
+
+@media (min-width:768px) and (max-width:991px) {
+    .title p {
+        width: 100%;
+    }
+
+    nav {
+        position: absolute !important;
+        z-index: 9999;
+        width: 100%;
+        background: #fff;
+    }
+
+    nav button i {
+        color: #2D3E50;
+    }
+
+    nav ul {
+        text-align: center;
+        background: #2D3E50;
+        padding: 20px 0;
+    }
+
+    nav ul li {
+        padding-top: 0;
+        margin-right: 0;
+    }
+
+    nav ul li a {
+        color: #fff !important;
+    }
+
+    nav .button {
+        text-align: center;
+        background: #2D3E50;
+        padding-bottom: 20px;
+    }
+
+    #banner-area .banner-slider .slider .overlay {
+        padding-top: 110px;
+        padding-bottom: 50px;
+    }
+
+    #banner-area .slider .overlay h1 {
+        font-size: 30px;
+    }
+
+    #banner-area .slider .overlay h2 {
+        font-size: 20px;
+    }
+
+    #banner-area .slider .overlay p {
+        width: auto;
+    }
+
+    #banner-area .slick-dots {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        padding-left: 0 !important;
+    }
+
+    #banner-area .slick-dots li {
+        display: inline-block;
+        margin: 0 3px;
+    }
+
+    #banner-area .slick-dots button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 2px solid #fbaa33;
+        background: transparent;
+
+    }
+
+    #banner-area .slick-dots .slick-active button {
+        background: #fbaa33;
+    }
+
+    #banner-bottom {
+        transform: translateY(0);
+        margin: 50px 0;
+    }
+    
+
+    #about-area {
+        text-align: center;
+    }
+
+    #about-area p {
+        text-align: center;
+    }
+
+    #about-area a {
+        margin-right: 5px;
+    }
+
+    #course-area ul{
+        bottom: -24px;
+    }
+    #course-area .slick-dots {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -24px;
+        padding-left: 0 !important;
+    }
+
+    #course-area .slick-dots li {
+        display: inline-block;
+        margin: 0 3px;
+    }
+
+    #course-area .slick-dots button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 2px solid #fbaa33;
+        background: transparent;
+    }
+
+    #course-area .slick-dots .slick-active button {
+        background: #fbaa33;
+    }
+        #event-area .details .time{
+            margin-left: 30px;
+        }
+    #event-area .date {
+        
+        background: red;
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        right: 0;
+        bottom: 1px;
+    }
+   
+    #event-area .image{
+        text-align: center;
+    }
+    #event-area .item{
+        display: flex;
+        justify-content: space-between; 
+    }
+    #event-area .item a {
+        position: absolute;
+        left: 12px;
+        bottom: 1px;
+    }
+    
+    #event-area .details {
+        position: relative;
+    }
+        
+    #counter-area .item p:before{
+        right: 35%;
+        } 
+    #counter-area .item p:after{
+        left: 35%;
+        }
+    
+    
+    #testi-area .testi-slider .slider{
+        margin-right: 0;
+        margin-left: 0;
+    }
+        
+    #testi-area .testi-slider .slider img{
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        margin: 0 auto;
+    }
+    
+    #testi-area .details-slider p{
+        margin: 10px 0;
+        text-align: center;
+    }
+    #testi-area .details-slider .icon{
+        margin-bottom: 10px;
+    }
+    
+    #teachers-area .item {
+        margin-bottom: 10px;
+    }
+    #teachers-area .item .name{
+        margin-top: 10px;
+        bottom: 18px;
+    }
+    
+    #blog-area .item{
+        margin-bottom: 10px;
+    }
+    #blog-area a{
+        display: block;
+    }
+    
+    #blog-area .small-blog{
+        margin-top: 90px;
+    }
+    #blog-area .row{
+        transform: translateY(-10%);
+    }
+    footer{
+        margin-top: -200px;
+    }
+    footer .footer-details .logo-part i{
+        margin-bottom: 20px;
+    }
+    footer .footer-details .info-part ul li{
+            padding: 15px 0;
+    }
+    footer .footer-details .details-part{
+            margin-top: 10px;
+    }
+    footer .footer-details .info-part ul{
+        padding: 20px 0;
+    }
+ }
+    
